@@ -1,0 +1,34 @@
+ALGORITHM algorithm_name
+VAR
+    tab:INTEGER[7];
+BEGIN
+    FOR i FROM 1 TO 7 DO
+        tab[i]=0;
+    END_FOR
+END
+ALGORITHM algorithm_name
+VAR
+    tab: ARRAY_OF INTEGER[9];
+BEGIN
+    FOR i FROM 1 TO 9 DO
+        afficher("saisiesz la note n",i,":")
+        lire(tab[i])
+    END_FOR
+END
+ALGORITHM tabs
+VAR
+    tab:ARRAY_OF INTEGER [6]
+BEGIN
+    Pour i ? 0 à 5
+  Nb(i) ? i * i
+  Ecrire Nb(i)
+END
+ALGORITHM ex4
+VAR
+    tab : ARRAY_OF INTEGER[length];
+    occ : INTEGER;
+    nb :INTEGER;
+BEGIN
+    ecrire("entrer le nombre que vous chercher")
+    read(nb)
+END
