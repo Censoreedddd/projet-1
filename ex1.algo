@@ -31,4 +31,39 @@ VAR
 BEGIN
     ecrire("entrer le nombre que vous chercher")
     read(nb)
+
+
+
+
+
+
+
+
+
+
+
+FUNCTION factorielle (n) : INTEGER
+VAR
+    i:INTEGER
+BEGIN
+IF (n=0) THEN
+    RETURN 1;
+END_IF
+    i=n*factorielle (n-1);
+    RETURN value ;
+END
+ALGORITHM factorie 
+VAR
+    n :INTEGER
+BEGIN
+    write("entrer le nombre que vous chercher")
+    read(n)
+    resultat=factorielle(n)
+    write("le resultat est ";resultat)
+END
+ALGORITHM sum_carr
+VAR
+    set_declarations
+BEGIN
+    set_instructions
 END

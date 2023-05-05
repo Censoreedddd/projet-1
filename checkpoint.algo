@@ -1,0 +1,20 @@
+ALGORITHM check
+VAR
+    sentence : STRING
+    count1,count2,count3 :INTEGER
+BEGIN
+    write("put a sentence that ends with a point")
+    read("sentence")
+ count1=sentence.length
+ IF  ([array]=" ") THEN
+ i=i+1
+    count2=count2+1
+    END_IF
+    IF charcter in ["a","e","i","o" "u"]:
+        count3=count3+1
+ i=i+1
+ END_IF
+    write("The length of the sentence";count1)
+    write("The number of words in the sentence";count2+1)
+    write("The number of vowels in the sentence";count3+1)
+END
